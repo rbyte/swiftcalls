@@ -75,7 +75,7 @@ setInterval(() => {
             }
         } else {
             if (!audio.paused) {
-                audio.pause
+                audio.pause()
                 console.log("Stopping playback at ", new Date())
             }
         }
